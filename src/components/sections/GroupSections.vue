@@ -1,14 +1,14 @@
 <template>
-    <TextInitial/>
+  <PresentationText />
 </template>
 
 <script>
-import TextInitial from './TextInitial.vue';
+import PresentationText from "./PresentationText.vue";
 
 export default {
   name: "GroupSections",
   components: {
-    TextInitial,
-  }
+    PresentationText,
+  },
 };
 </script>
