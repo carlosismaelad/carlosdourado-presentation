@@ -51,7 +51,6 @@ export default {
   margin: 2rem auto;
   justify-content: center;
   place-content: center;
-  font-family: "Roboto Mono", sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
   overflow: hidden;
