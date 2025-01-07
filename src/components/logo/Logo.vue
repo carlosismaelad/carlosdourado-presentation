@@ -16,8 +16,7 @@ export default {
 .logo {
   font-family: "Roboto Mono", sans-serif;
   font-weight: 600;
-  font-size: 30px;
-  display: inline-block;
+  font-size: 1rem;
   color: var(--primary-color);
 }
 

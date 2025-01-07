@@ -3,17 +3,16 @@
         <div class="logo-container">
             <Logo/>
         </div>
-        <div class="button-container">
-            <ButtonHeader text="Sobre"/>
-            <ButtonHeader text="Projetos"/>
-            <ButtonHeader text="Contato"/>
+        <div>
+            <BurgerMenu/>
         </div>
     </section>
 </template>
 
 <script setup lang="ts">
 import Logo from '../logo/Logo.vue'
-import ButtonHeader from '../button/TheButton.vue'
+import BurgerMenu from '../menu-icon/BurgerMenu.vue'
+
 </script>
 
 <style>
@@ -22,8 +21,9 @@ import ButtonHeader from '../button/TheButton.vue'
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
-    margin: auto 3rem;
+    margin: 0 1rem;
+    height: 3rem;
+    margin-left: 1rem;
 }
 
 .button-container{

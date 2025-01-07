@@ -45,14 +45,17 @@ export default {
 
 <style>
 .presentation {
+  max-width: 11rem;
   display: flex;
-  margin: 5rem auto;
   color: beige;
+  margin: 2rem auto;
+  justify-content: center;
   place-content: center;
   font-family: "Roboto Mono", sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
-  text-wrap: wrap;
+  font-size: 0.8rem;
+  overflow: hidden;
+
 }
 
 .tech {
